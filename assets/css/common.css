@@ -1,0 +1,66 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #fff;
+  color: #222;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.8;
+  margin: 0;
+}
+.wrap {
+  margin: auto;
+  width: 100%;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+/* list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* link */
+a:link,a:visited,a:hover,a:active {
+  color: #222;
+  text-decoration: none;
+}
+a img:hover {
+  filter: alpha(opacity=70);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* pagetop */
+.pagetop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 70px;
+  height: 70px;
+  background: bottom / cover no-repeat url(../img/0005.png);
+  display: block;
+  opacity: 0.8;
+}
+.pagetop a {
+  display: block;
+  height: 60px;
+  width: 60px;
+}
+.pagetop:hover {
+  filter: alpha(opacity=70);
+  -webkit-transition: 0.3s;
+  opacity: 0.7;
+  transition: 0.3s;
+}
