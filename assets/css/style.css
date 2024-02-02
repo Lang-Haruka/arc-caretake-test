@@ -88,10 +88,10 @@ header .main__wrap .main:after {
   position: absolute;
   content: '';
   background: 100% / 100% url(../img/0004.png) no-repeat;
-  width: 536px;
-  height: 176px;
-  bottom: -20px;
-  right: -540px;
+  width: 340px;
+  height: 160px;
+  bottom: -12px;
+  right: -340px;
 }
 h1 {
   filter: drop-shadow(2px 2px 2px rgba(117,137,126,1));
@@ -279,7 +279,7 @@ h2 {
   background: #fff;
   border-radius: 20px;
   display: flex;
-  height: 217px;
+  height: 284px;
   margin-bottom: 40px;
 }
 .s04__wrap li .item {
@@ -320,7 +320,8 @@ h2 {
   display: block;
   font-size: 1.8rem;
   font-weight: 500;
-  margin-top: 2em;
+  margin-top: 1.4em;
+  line-height: 1.6em;
   text-align: right;
 }
 .s04__wrap li:nth-child(3) .box p {
@@ -666,6 +667,7 @@ footer ul {
 }
 .sp {
   display: block !important;
+  margin: auto;
 }
 body {
   font-size: 1.4rem;
