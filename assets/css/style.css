@@ -117,7 +117,7 @@ header > div.main__wrap > div > p.txt > span{
   text-stroke: 0.6px #1FAA75;
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:720px) {
 	header > div.main__wrap > div > p.txt > span{
 		font-size:2rem;
     background-size: 100% 30%;
