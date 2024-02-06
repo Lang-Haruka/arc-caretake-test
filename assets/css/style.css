@@ -126,6 +126,10 @@ header > div.main__wrap > div > p.txt > span{
     text-stroke: 0.3px #1FAA75;
     padding: 0 .25rem;
 	}
+  header div.main__wrap img {
+  margin-top: 2rem;
+
+  }
 }
 
 
