@@ -73,15 +73,15 @@ header .main__wrap {
   margin: auto;
   max-width: 1440px;
   overflow: hidden;
-  padding: 300px 4% 150px;
+  padding: 260px 4% 150px;
 }
 header .main__wrap .main {
   position: relative;
   color: #fff;
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-weight: 700;
   letter-spacing: -0.36px;
-  max-width: 500px;
+  max-width: 700px;
   text-align: center;
 }
 header .main__wrap .main:after {
@@ -93,14 +93,42 @@ header .main__wrap .main:after {
   bottom: -12px;
   right: -340px;
 }
+header > div.main__wrap > div > p:nth-child(1) {
+  filter: drop-shadow(1.2px 1.2px 1.2px rgba(117,137,126,1));
+}
 h1 {
   filter: drop-shadow(2px 2px 2px rgba(117,137,126,1));
-  font-size: 7.6rem;
+  font-size: 10rem;
   font-weight: 700;
   letter-spacing: 4.18px;
-  line-height: 1.4;
+  line-height: 1.2;
   margin: .25em 0;
 }
+header > div.main__wrap > div > p.txt > span{
+  background-image: linear-gradient(to right, #1FAA75, #FFA755);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+  font-size: 3.2rem;
+  font-weight: 700;
+  padding-bottom: .25em;
+  color: #fff;
+  -webkit-text-stroke: 0.6px #1FAA75;
+  text-stroke: 0.6px #1FAA75;
+}
+
+@media screen and (max-width:720px) {
+	header > div.main__wrap > div > p.txt > span{
+		font-size:2rem;
+    background-size: 100% 30%;
+    color: #fff;
+    -webkit-text-stroke: 0.3px #1FAA75;
+    text-stroke: 0.3px #1FAA75;
+    padding: 0 .25rem;
+	}
+}
+
+
 header .btn3 {
   margin: 60px auto 0;
   width: 400px;
